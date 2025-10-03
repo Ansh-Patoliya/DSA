@@ -5,7 +5,7 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![DSA](https://img.shields.io/badge/DSA-Practice-brightgreen?style=for-the-badge)
 ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
-![Progress](https://img.shields.io/badge/Progress-1%2F90%20Days-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-2%2F90%20Days-blue?style=for-the-badge)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ansh-patoliya)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ansh-Patoliya)
@@ -34,7 +34,7 @@ Welcome to my **90-Day DSA Challenge**! This repository contains my daily practi
 
 ### 📊 Statistics
 - **Days Completed**: 1 / 90
-- **Problems Solved**: None yet 
+- **Problems Solved**: 1 
 - **Topics Covered**: None yet
 - **Next Focus**: Arrays 
 
