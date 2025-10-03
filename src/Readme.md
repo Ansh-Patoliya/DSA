@@ -7,8 +7,15 @@
 ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
 ![Progress](https://img.shields.io/badge/Progress-2%2F90%20Days-blue?style=for-the-badge)
 
+---
+
+### 🌐 Connect With Me
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ansh-patoliya)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ansh-Patoliya)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshpatoliya1408@gmail.com)
+
+---
 
 *A 90-day structured approach to mastering Data Structures and Algorithms*
 
@@ -33,13 +40,13 @@ Welcome to my **90-Day DSA Challenge**! This repository contains my daily practi
 ## 🏆 Current Progress
 
 ### 📊 Statistics
-- **Days Completed**: 1 / 90
-- **Problems Solved**: 1 
+- **Days Completed**: 2 / 90
+- **Problems Solved**: 2 
 - **Topics Covered**: None yet
 - **Next Focus**: Arrays 
 
 ### 📅 Daily Progress
-Check out [Progress.md](src/Progress.md) for detailed daily updates, learnings, and reflections.
+Check out [Progress.md](Progress.md) for detailed daily updates, learnings, and reflections.
 
 ---
 
@@ -122,10 +129,13 @@ While this is a personal learning journey, suggestions and improvements are welc
 
 Feel free to reach out if you have questions or want to discuss problem-solving approaches!
 
-- 📧 Email: anshpatoliya1408@gmail.com
+<div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ansh_Patoliya-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ansh-patoliya)
+[![GitHub](https://img.shields.io/badge/GitHub-Ansh--Patoliya-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ansh-Patoliya)
+[![Email](https://img.shields.io/badge/Email-anshpatoliya1408@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshpatoliya1408@gmail.com)
 
-
+</div>
 
 ---
 
