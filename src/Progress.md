@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-2%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-2-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-2_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-3%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-4-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-3_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -83,8 +83,35 @@ Applying the "Divide and Conquer" strategy and understanding its time complexity
 
 ---
 
+## 📅 **Day 3** – Remove Duplicates from Sorted Array and Remove Element *(4 Oct 2025)*
+
+### 🎯 **Focus of the Day**
+Mastering in-place array manipulation using the two-pointer technique.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem 1**: LeetCode 26 - `Remove Duplicates from Sorted Array`
+- **`Problem`**: Given a sorted array, remove the duplicates in-place such that each element appears only once and return the new length.
+- **`Approach`**: Used two pointers - one to iterate through the array and another to track the position of unique elements.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Empty array, all elements are the same.
+- ---
+#### 🔹 **Problem 2**: LeetCode 27 - `Remove Element`
+- **`Problem`**: Given an array and a value, remove all instances of that value in-place and return the new length.
+- **`Approach`**: Similar two-pointer technique, where one pointer iterates and the other tracks the position of non-target elements.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Empty array, target value not present, all elements are the target value.
+---
+- ### 💭 **Reflection**
+- Today's focus on in-place array manipulation using the two-pointer technique was incredibly insightful. Both problems reinforced the importance of maintaining a clean and efficient approach to modifying arrays without extra space.
+- The key takeaway from "Remove Duplicates from Sorted Array" was the realization that the sorted property of the array allows us to easily identify duplicates by comparing adjacent elements. This significantly simplifies the logic and ensures we only traverse the array once.
+- In "Remove Element," the flexibility of the two-pointer technique was further highlighted. By adjusting the pointers based on whether the current element matches the target value, we can efficiently filter out unwanted elements while maintaining the order of the remaining elements.
+
 
 **🔥 Keep the momentum going! 🔥**
 
-*Next Target: Day 3 🎯*
 
