@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-3%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-4-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-3_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-4%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-5-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-4_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -111,7 +111,24 @@ Mastering in-place array manipulation using the two-pointer technique.
 - The key takeaway from "Remove Duplicates from Sorted Array" was the realization that the sorted property of the array allows us to easily identify duplicates by comparing adjacent elements. This significantly simplifies the logic and ensures we only traverse the array once.
 - In "Remove Element," the flexibility of the two-pointer technique was further highlighted. By adjusting the pointers based on whether the current element matches the target value, we can efficiently filter out unwanted elements while maintaining the order of the remaining elements.
 
+---
+## 📅 **Day 4** – Plus One *(5 Oct 2025)*
 
+### 🎯 **Focus of the Day**
+Handling carry-over in digit-based problems and understanding array manipulation.
+---### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 66 - `Plus One`
+- **`Problem`**: Given a non-empty array of digits representing a non-negative integer, increment one to the integer.
+- **`Approach`**: Traversed the array from the end to the beginning, handling carry-over as needed.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — In the worst case, we may need to traverse the entire array.
+  - **`Space`**: O(1) — No extra space is used, except for the output array in case of a carry-over.
+- **`Edge Cases Handled`**: All digits are 9 (e.g., [9,9,9]), single digit arrays, no carry-over needed.
+--- 
+### 💭 **Reflection**
+- Today's problem, "Plus One," was a fantastic exercise in handling carry-over logic in digit-based problems. The approach of traversing the array from the end allowed for a straightforward way to manage carry-overs, similar to how addition is performed manually.
+- A key insight was recognizing that if all digits are 9, we need to create a new array to accommodate the extra digit resulting from the carry-over. This edge case was crucial to handle correctly to avoid index errors.
+--- 
 **🔥 Keep the momentum going! 🔥**
 
 
