@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-4%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-5-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-4_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-5%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-7-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-5_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -97,7 +97,7 @@ Mastering in-place array manipulation using the two-pointer technique.
   - **`Time`**: O(n) — Each element is processed once.
   - **`Space`**: O(1) — No extra space is used.
 - **`Edge Cases Handled`**: Empty array, all elements are the same.
-- ---
+---
 #### 🔹 **Problem 2**: LeetCode 27 - `Remove Element`
 - **`Problem`**: Given an array and a value, remove all instances of that value in-place and return the new length.
 - **`Approach`**: Similar two-pointer technique, where one pointer iterates and the other tracks the position of non-target elements.
@@ -116,7 +116,9 @@ Mastering in-place array manipulation using the two-pointer technique.
 
 ### 🎯 **Focus of the Day**
 Handling carry-over in digit-based problems and understanding array manipulation.
----### ✅ **Tasks Completed**
+
+---
+### ✅ **Tasks Completed**
 #### 🔹 **Problem**: LeetCode 66 - `Plus One`
 - **`Problem`**: Given a non-empty array of digits representing a non-negative integer, increment one to the integer.
 - **`Approach`**: Traversed the array from the end to the beginning, handling carry-over as needed.
@@ -129,6 +131,37 @@ Handling carry-over in digit-based problems and understanding array manipulation
 - Today's problem, "Plus One," was a fantastic exercise in handling carry-over logic in digit-based problems. The approach of traversing the array from the end allowed for a straightforward way to manage carry-overs, similar to how addition is performed manually.
 - A key insight was recognizing that if all digits are 9, we need to create a new array to accommodate the extra digit resulting from the carry-over. This edge case was crucial to handle correctly to avoid index errors.
 --- 
+
+## 📅 **Day 5** – Move Zeroes and Apply Operation to Array *(6 Oct 2025)*
+
+### 🎯 **Focus of the Day**
+Efficiently rearranging elements in an array while maintaining the order of non-zero elements.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 283 - `Move Zeroes`
+- **`Problem`**: Given an array, move all 0's to the end while maintaining the relative order of the non-zero elements.
+- **`Approach`**: Used the two-pointer technique to shift non-zero elements forward and fill the rest with zeros.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: All elements are zero, no zeros in the array, mixed zeros and non-zeros.
+---
+
+#### 🔹 **Problem**: LeetCode 2460 - `Apply Operations to an Array`
+- **`Problem`**: Given an array, apply a specific operation to adjacent equal elements.
+- **`Approach`**: Iterated through the array, applying the operation and shifting elements as needed.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: No adjacent equal elements, all elements are the same.
+---
+### 💭 **Reflection**
+- Today's problems, "Move Zeroes" and "Apply Operations to an Array," were excellent exercises in array manipulation and the two-pointer technique. Both problems required careful handling of element positions to achieve the desired outcomes efficiently.
+- In "Move Zeroes," the challenge was to maintain the relative order of non-zero elements while shifting zeros to the end. The two-pointer approach proved to be an effective solution, allowing for a single pass through the array.
+- "Apply Operations to an Array" introduced a different kind of manipulation, where adjacent equal elements needed to be processed. This problem reinforced the importance of careful iteration and condition checking to ensure the correct application of operations without disrupting the array's structure.
+
+---
 **🔥 Keep the momentum going! 🔥**
 
 
