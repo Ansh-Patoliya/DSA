@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-5%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-7-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-5_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-6%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-10-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-6_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -162,6 +162,46 @@ Efficiently rearranging elements in an array while maintaining the order of non-
 - "Apply Operations to an Array" introduced a different kind of manipulation, where adjacent equal elements needed to be processed. This problem reinforced the importance of careful iteration and condition checking to ensure the correct application of operations without disrupting the array's structure.
 
 ---
+
+## 📅 **Day 6** – Majority Element , Best Time to Buy and Sell Stock , Contains Duplicate *(7 Oct 2025)*
+
+### 🎯 **Focus of the Day**
+Understanding frequency counting and the Boyer-Moore Voting Algorithm.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 169 - `Majority Element`
+- **`Problem`**: Given an array, find the majority element (the element that appears more than n/2 times).
+- **`Approach`**: Implemented the Boyer-Moore Voting Algorithm to efficiently find the majority element.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Array with all identical elements, array with no majority element (though the problem guarantees one).
+---
+
+#### 🔹 **Problem**: LeetCode 121 - `Best Time to Buy and Sell Stock`
+- **`Problem`**: Given an array of prices, find the maximum profit by choosing a single buy and sell.
+- **`Approach`**: Tracked the minimum price and calculated potential profits in a single pass.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each price is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Prices in descending order (no profit), single day prices.
+---
+#### 🔹 **Problem**: LeetCode 217 - `Contains Duplicate`
+- **`Problem`**: Given an array, determine if it contains any duplicates.
+- **`Approach`**: Used a HashSet to track seen elements and check for duplicates.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(n) — In the worst case, all elements are unique.
+- **`Edge Cases Handled`**: Empty array, all elements are the same, no duplicates.
+---
+### 💭 **Reflection**
+- Today's problems, "Majority Element," "Best Time to Buy and Sell Stock," and "Contains Duplicate," provided a diverse set of challenges that reinforced different algorithmic techniques and data structures.
+- The Boyer-Moore Voting Algorithm in "Majority Element" was particularly enlightening. It showcased how we can efficiently determine the majority element in linear time and constant space, which is a significant improvement over naive counting methods.
+- "Best Time to Buy and Sell Stock" highlighted the importance of tracking minimum values and calculating potential profits in a single pass, which is a common pattern in optimization problems.
+- "Contains Duplicate" was a straightforward problem that emphasized the utility of HashSets for quick lookups and duplicate detection.
+---
+
 **🔥 Keep the momentum going! 🔥**
 
 
