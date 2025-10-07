@@ -166,7 +166,7 @@ Efficiently rearranging elements in an array while maintaining the order of non-
 ## 📅 **Day 6** – Majority Element , Best Time to Buy and Sell Stock , Contains Duplicate *(7 Oct 2025)*
 
 ### 🎯 **Focus of the Day**
-Understanding frequency counting and the Boyer-Moore Voting Algorithm.
+Solving diverse problems to reinforce different algorithmic techniques and data structures.
 
 ---
 ### ✅ **Tasks Completed**
