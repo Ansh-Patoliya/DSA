@@ -51,7 +51,16 @@ public class MissingNumber {
         return total-sum;
     }
 
+    int missXOR(int[] arr){
+        int n= arr.length;
+        int ans=n;
+        for (int i = 0; i < n; i++) {
+            ans=ans^i^arr[i];
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
-        System.out.println(new MissingNumber().miss(new int[]{}));
+        System.out.println(new MissingNumber().missXOR(new int[]{0,3,1,5})); //4
     }
 }
