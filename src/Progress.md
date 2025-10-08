@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-6%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-10-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-6_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-7%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-12-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-7_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -200,6 +200,37 @@ Solving diverse problems to reinforce different algorithmic techniques and data 
 - The Boyer-Moore Voting Algorithm in "Majority Element" was particularly enlightening. It showcased how we can efficiently determine the majority element in linear time and constant space, which is a significant improvement over naive counting methods.
 - "Best Time to Buy and Sell Stock" highlighted the importance of tracking minimum values and calculating potential profits in a single pass, which is a common pattern in optimization problems.
 - "Contains Duplicate" was a straightforward problem that emphasized the utility of HashSets for quick lookups and duplicate detection.
+---
+
+## 📅 **Day 7** - Missing Number , Find All Numbers Disappeared in an Array *(8 Oct 2025)*
+
+### 🎯 **Focus of the Day**
+Mastering array manipulation and mathematical properties to solve problems efficiently.\
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 268 - `Missing Number`
+- **`Problem`**: Given an array containing n distinct numbers taken from 0 to n, find the missing number.
+- **`Approach`**: Used the mathematical formula for the sum of the first n natural numbers to find the missing number.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Missing number is 0, missing number is n, single element array.
+---
+- #### 🔹 **Problem**: LeetCode 448 - `Find All Numbers Disappeared in an Array`
+- **`Problem`**: Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), find all the numbers that do not appear in the array.
+- **`Approach`**: Used the input array itself to mark the presence of numbers by negating the values at corresponding indices.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: All numbers present, no numbers present, single element array.
+---
+### 💭 **Reflection**
+- Today's problems, "Missing Number" and "Find All Numbers Disappeared in an Array," were excellent exercises in array manipulation and leveraging mathematical properties to solve problems efficiently.
+- In "Missing Number," the use of the mathematical formula for the sum of the first n natural numbers provided a clever way to find the missing number without needing extra space or complex data structures. This approach is both time and space efficient.
+- "Find All Numbers Disappeared in an Array" showcased a unique technique of using the input array itself to track the presence of numbers. By negating values at corresponding indices, we could efficiently identify which numbers were missing without additional space.
+- Both problems reinforced the importance of thinking creatively about how to use existing data structures to solve problems in optimal ways.
+
 ---
 
 **🔥 Keep the momentum going! 🔥**
