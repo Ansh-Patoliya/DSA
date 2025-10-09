@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-7%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-12-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-7_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-8%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-13-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-8_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -233,6 +233,26 @@ Mastering array manipulation and mathematical properties to solve problems effic
 
 ---
 
+## 📅 **Day 8** – Merge Sorted Array *(9 Oct 2025)*
+### 🎯 **Focus of the Day**
+Efficiently merging two sorted arrays in-place using the two-pointer technique.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 88 - `Merge Sorted Array`
+- **`Problem`**: Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
+- **`Approach`**: Used three pointers to merge the arrays from the end to avoid overwriting elements in nums1.
+- **Complexity Analysis**:
+  - **`Time`**: O(m + n) — Each element from both arrays is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: One or both arrays are empty, all elements in one array are smaller/larger than the other.
+---
+### 💭 **Reflection**
+- Today's problem, "Merge Sorted Array," was a great exercise in using the two-pointer technique to efficiently merge two sorted arrays in-place. The approach of starting from the end of both arrays was particularly clever, as it allowed us to avoid overwriting elements in nums1 that had not yet been processed.
+- A key insight was recognizing that by using three pointers (one for each array and one for the position in nums1), we could effectively manage the merging process without needing additional space. This is especially important in scenarios where memory usage is a concern.
+- Handling edge cases, such as when one or both arrays are empty, reinforced the importance of thorough testing and validation in algorithm design.
+
+---
 **🔥 Keep the momentum going! 🔥**
 
 
