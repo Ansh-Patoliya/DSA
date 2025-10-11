@@ -5,7 +5,7 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![DSA](https://img.shields.io/badge/DSA-Practice-brightgreen?style=for-the-badge)
 ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
-![Progress](https://img.shields.io/badge/Progress-8%2F90%20Days-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-9%2F90%20Days-blue?style=for-the-badge)
 
 ---
 
@@ -40,10 +40,10 @@ Welcome to my **90-Day DSA Challenge**! This repository contains my daily practi
 ## 🏆 Current Progress
 
 ### 📊 Statistics
-- **Days Completed**: 8 / 90
-- **Problems Solved**: 13 
-- **Topics Covered**: Array Basic Operations
-- **Next Focus**: Arrays 
+- **Days Completed**: 9 / 90
+- **Problems Solved**: 16 
+- **Topics Covered**: Array 
+- **Next Focus**: 
 
 ### 📅 Daily Progress
 Check out [Progress.md](Progress.md) for detailed daily updates, learnings, and reflections.
