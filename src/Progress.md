@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-9%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-16-success?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-10%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-19-success?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Current_Streak-1_Days-orange?style=for-the-badge)
 
 </div>
@@ -292,6 +292,44 @@ Diverse problem-solving to enhance understanding of bit manipulation, combinator
 - "Pascal's Triangle" reinforced the concept of building solutions iteratively based on previous results, a foundational idea in combinatorics and dynamic programming.
 - "Maximum Subarray" was a classic problem that highlighted the power of Kadane's Algorithm, demonstrating how a seemingly complex problem can be solved in linear time with a simple yet effective approach.
 
+---
+
+## 📅 **Day 10** – Valid Anagram , Ransom Note , Intersection of Two Arrays *(11 Oct 2025)*
+
+### 🎯 **Focus of the Day**
+Strengthening string manipulation and set operations through practical problems.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 242 - `Valid Anagram`
+- **`Problem`**: Given two strings, determine if one is an anagram of the other.
+- **`Approach`**: Used a frequency count array to compare character counts.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each character in both strings is processed once.
+  - **`Space`**: O(1) — The frequency array has a fixed size of 26 for lowercase letters.
+- **`Edge Cases Handled`**: Different lengths, empty strings.
+---
+#### 🔹 **Problem**: LeetCode 383 - `Ransom Note`
+- **`Problem`**: Given two strings, determine if the ransom note can be constructed from the magazine.
+- **`Approach`**: Used a frequency count array to track character availability.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each character in both strings is processed once.
+  - **`Space`**: O(1) — The frequency array has a fixed size of 26 for lowercase letters.
+- **`Edge Cases Handled`**: Empty ransom note, magazine shorter than ransom note.
+---
+#### 🔹 **Problem**: LeetCode 349 - `Intersection of Two Arrays`
+- **`Problem`**: Given two arrays, return their intersection.
+- **`Approach`**: Used sets to find common elements between the two arrays.
+- **Complexity Analysis**:
+  - **`Time`**: O(n + m) — Each element in both arrays is processed once.
+  - **`Space`**: O(min(n, m)) — The smaller set is used to store unique elements.
+- **`Edge Cases Handled`**: No common elements, one or both arrays are empty.
+---
+### 💭 **Reflection**
+- Today's problems, "Valid Anagram," "Ransom Note," and "Intersection of Two Arrays," were excellent exercises in string manipulation and set operations.
+- The frequency count approach used in both "Valid Anagram" and "Ransom Note" was efficient and straightforward, allowing for quick comparisons of character availability. This method is particularly effective for problems involving character counts and can be easily adapted for different character sets.
+- "Intersection of Two Arrays" highlighted the utility of sets for finding common elements efficiently. By leveraging the properties of sets, we can quickly identify intersections without the need for nested loops, which would increase time complexity.
+- Overall, these problems reinforced the importance of choosing the right data structures and algorithms based on the specific requirements of the problem at hand.
 ---
 **🔥 Keep the momentum going! 🔥**
 

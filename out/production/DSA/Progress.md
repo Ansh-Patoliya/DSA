@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-8%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-13-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-8_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-9%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-16-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-1_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -251,6 +251,46 @@ Efficiently merging two sorted arrays in-place using the two-pointer technique.
 - Today's problem, "Merge Sorted Array," was a great exercise in using the two-pointer technique to efficiently merge two sorted arrays in-place. The approach of starting from the end of both arrays was particularly clever, as it allowed us to avoid overwriting elements in nums1 that had not yet been processed.
 - A key insight was recognizing that by using three pointers (one for each array and one for the position in nums1), we could effectively manage the merging process without needing additional space. This is especially important in scenarios where memory usage is a concern.
 - Handling edge cases, such as when one or both arrays are empty, reinforced the importance of thorough testing and validation in algorithm design.
+
+---
+
+## 📅 **Day 9** – Single Number , Pascal's Triangle , Maximum Subarray *(10 Oct 2025)*
+### 🎯 **Focus of the Day**
+Diverse problem-solving to enhance understanding of bit manipulation, combinatorial generation, and dynamic programming.
+
+---
+### ✅ **Tasks Completed**
+
+#### 🔹 **Problem**: LeetCode 136 - `Single Number`
+- **`Problem`**: Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+- **`Approach`**: Used the XOR bitwise operation to find the unique element.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Single element array, all elements are the same.
+---
+
+- #### 🔹 **Problem**: LeetCode 118 - `Pascal's Triangle`
+- **`Problem`**: Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
+- **`Approach`**: Built the triangle row by row, using the properties of binomial coefficients.
+- **Complexity Analysis**:
+  - **`Time`**: O(numRows^2) — Each row is built based on the previous row.
+  - **`Space`**: O(numRows^2) — The output triangle requires space proportional to the number of rows.
+- **`Edge Cases Handled`**: numRows = 0, numRows = 1.
+---
+- #### 🔹 **Problem**: LeetCode 53 - `Maximum Subarray`
+- **`Problem`**: Given an integer array, find the contiguous subarray with the largest sum.
+- **`Approach`**: Implemented Kadane's Algorithm to find the maximum subarray sum in a single pass.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: All negative numbers, single element array.
+---
+- ### 💭 **Reflection**
+- Today's problems, "Single Number," "Pascal's Triangle," and "Maximum Subarray," provided a diverse set of challenges that enhanced my understanding of bit manipulation, combinatorial generation, and dynamic programming.
+- The use of the XOR operation in "Single Number" was particularly elegant, showcasing how bitwise operations can solve problems efficiently without additional space.
+- "Pascal's Triangle" reinforced the concept of building solutions iteratively based on previous results, a foundational idea in combinatorics and dynamic programming.
+- "Maximum Subarray" was a classic problem that highlighted the power of Kadane's Algorithm, demonstrating how a seemingly complex problem can be solved in linear time with a simple yet effective approach.
 
 ---
 **🔥 Keep the momentum going! 🔥**
