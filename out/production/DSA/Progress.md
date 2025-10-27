@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-10%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-19-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-1_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-11%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-21-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-2_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -294,7 +294,7 @@ Diverse problem-solving to enhance understanding of bit manipulation, combinator
 
 ---
 
-## 📅 **Day 10** – Valid Anagram , Ransom Note , Intersection of Two Arrays *(11 Oct 2025)*
+## 📅 **Day 10** – Valid Anagram , Ransom Note , Intersection of Two Arrays *(24 Oct 2025)*
 
 ### 🎯 **Focus of the Day**
 Strengthening string manipulation and set operations through practical problems.
@@ -330,6 +330,35 @@ Strengthening string manipulation and set operations through practical problems.
 - The frequency count approach used in both "Valid Anagram" and "Ransom Note" was efficient and straightforward, allowing for quick comparisons of character availability. This method is particularly effective for problems involving character counts and can be easily adapted for different character sets.
 - "Intersection of Two Arrays" highlighted the utility of sets for finding common elements efficiently. By leveraging the properties of sets, we can quickly identify intersections without the need for nested loops, which would increase time complexity.
 - Overall, these problems reinforced the importance of choosing the right data structures and algorithms based on the specific requirements of the problem at hand.
+---
+
+## 📅 **Day 11** – Two Sum II - Input Array Is Sorted , Square of a Sorted Array *(25 Oct 2025)*
+### 🎯 **Focus of the Day**
+Utilizing the two-pointer technique to solve problems involving sorted arrays.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 167 - `Two Sum II - Input Array Is Sorted`
+- **`Problem`**: Given a sorted array, find two numbers that add up to a specific target.
+- **`Approach`**: Used the two-pointer technique to find the pair that sums to the target.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: No solution exists, multiple pairs exist.
+---
+#### 🔹 **Problem**: LeetCode 977 - `Square of a Sorted Array`
+- **`Problem`**: Given a sorted array, return an array of the squares of each number sorted in non-decreasing order.
+- **`Approach`**: Used the two-pointer technique to fill the result array from the largest square to the smallest.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(n) — The output array requires space proportional to the input array.
+- **`Edge Cases Handled`**: All negative numbers, all positive numbers, mixed numbers.
+---
+### 💭 **Reflection**
+- Today's problems, "Two Sum II - Input Array Is Sorted" and "Square of a Sorted Array," were excellent exercises in utilizing the two-pointer technique to solve problems involving sorted arrays.
+- The two-pointer approach in "Two Sum II" allowed for an efficient search for the target pair by leveraging the sorted property of the array. By adjusting the pointers based on the current sum, we could quickly converge on the solution without needing additional space or complex data structures.
+- In "Square of a Sorted Array," the two-pointer technique was again employed effectively to fill the result array in a single pass. By comparing the absolute values of the elements at both ends of the array, we could determine which square to place next in the result array, ensuring that the output remained sorted.
+- Both problems reinforced the versatility and efficiency of the two-pointer technique, particularly when dealing with sorted data.
 ---
 **🔥 Keep the momentum going! 🔥**
 

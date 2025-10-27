@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-11%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-21-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-2_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-12%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-23-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-3_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -294,7 +294,7 @@ Diverse problem-solving to enhance understanding of bit manipulation, combinator
 
 ---
 
-## 📅 **Day 10** – Valid Anagram , Ransom Note , Intersection of Two Arrays *(24 Oct 2025)*
+## 📅 **Day 10** – Valid Anagram , Ransom Note , Intersection of Two Arrays *(25 Oct 2025)*
 
 ### 🎯 **Focus of the Day**
 Strengthening string manipulation and set operations through practical problems.
@@ -332,7 +332,7 @@ Strengthening string manipulation and set operations through practical problems.
 - Overall, these problems reinforced the importance of choosing the right data structures and algorithms based on the specific requirements of the problem at hand.
 ---
 
-## 📅 **Day 11** – Two Sum II - Input Array Is Sorted , Square of a Sorted Array *(25 Oct 2025)*
+## 📅 **Day 11** – Two Sum II - Input Array Is Sorted , Square of a Sorted Array *(26 Oct 2025)*
 ### 🎯 **Focus of the Day**
 Utilizing the two-pointer technique to solve problems involving sorted arrays.
 
@@ -360,6 +360,37 @@ Utilizing the two-pointer technique to solve problems involving sorted arrays.
 - In "Square of a Sorted Array," the two-pointer technique was again employed effectively to fill the result array in a single pass. By comparing the absolute values of the elements at both ends of the array, we could determine which square to place next in the result array, ensuring that the output remained sorted.
 - Both problems reinforced the versatility and efficiency of the two-pointer technique, particularly when dealing with sorted data.
 ---
+
+## 📅 **Day 12** – Valid Palindrome , Container With Most Water *(27 Oct 2025)*
+
+### 🎯 **Focus of the Day**
+Enhancing string manipulation skills and mastering the two-pointer technique for optimization problems.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 125 - `Valid Palindrome`
+- **`Problem`**: Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+- **`Approach`**: Used two pointers to compare characters from both ends of the string, skipping non-alphanumeric characters.
+- **Complexity Analysis:
+  - **`Time`**: O(n) — Each character is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Empty string, string with only non-alphanumeric characters.
+---
+#### 🔹 **Problem**: LeetCode 11 - `Container With Most Water`
+- **`Problem`**: Given n non-negative integers representing the heights of vertical lines, find two lines that together with the x-axis form a container that holds the most water.
+- **`Approach`**: Used the two-pointer technique to maximize the area by adjusting pointers based on the heights of the lines.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each line is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: All lines of equal height, single line.
+---
+### 💭 **Reflection**
+- Today's problems, "Valid Palindrome" and "Container With Most Water," were excellent exercises in string manipulation and the two-pointer technique for optimization problems.
+- In "Valid Palindrome," the two-pointer approach allowed for an efficient comparison of characters while effectively handling non-alphanumeric characters. This method ensured that we only focused on relevant characters, making the solution both time and space efficient.
+- "Container With Most Water" showcased the power of the two-pointer technique in maximizing area. By intelligently adjusting the pointers based on the heights of the lines, we could explore all potential containers in a single pass.
+- Both problems reinforced the versatility of the two-pointer technique and highlighted its effectiveness in solving a variety of problems.
+---
+
 **🔥 Keep the momentum going! 🔥**
 
 
