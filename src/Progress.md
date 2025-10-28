@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-12%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-23-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-3_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-13%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-26-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-4_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -390,6 +390,44 @@ Enhancing string manipulation skills and mastering the two-pointer technique for
 - "Container With Most Water" showcased the power of the two-pointer technique in maximizing area. By intelligently adjusting the pointers based on the heights of the lines, we could explore all potential containers in a single pass.
 - Both problems reinforced the versatility of the two-pointer technique and highlighted its effectiveness in solving a variety of problems.
 ---
+
+## 📅 **Day 13 ** – Maximum Average Subarray I , Longest Substring Without Repeating Characters , Minimum Size Subarray Sum *(28 Oct 2025)*
+### 🎯 **Focus of the Day**
+Mastering the sliding window technique for efficient subarray and substring problems.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 643 - `Maximum Average Subarray I`
+- **`Problem`**: Given an array and an integer k, find the contiguous subarray of length k that has the maximum average value.
+- **`Approach`**: Used the sliding window technique to calculate the sum of subarrays of length k and track the maximum average.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: k equals the length of the array, all elements are the same.
+---
+#### 🔹 **Problem**: LeetCode 3 - `Longest Substring Without Repeating Characters`
+- **`Problem`**: Given a string, find the length of the longest substring without repeating characters.
+- **`Approach`**: Used the sliding window technique with a HashMap to track the last seen index of characters.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each character is processed once.
+  - **`Space`**: O(min(m, n)) — The HashMap stores characters, where m is the size of the character set.
+- **`Edge Cases Handled`**: Empty string, all characters are the same.
+---
+#### 🔹 **Problem**: LeetCode 209 - `Minimum Size Subarray Sum`
+- **`Problem`**: Given an array of positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ≥ s.
+- **`Approach`**: Used the sliding window technique to expand and contract the window based on the current sum.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.  
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: No valid subarray exists, single element array.
+---
+### 💭 **Reflection**
+  - Today's problems, "Maximum Average Subarray I," "Longest Substring Without Repeating Characters," and "Minimum Size Subarray Sum," were excellent exercises in mastering the sliding window technique for efficient subarray and substring problems.
+  - The sliding window approach in "Maximum Average Subarray I" allowed for efficient calculation of subarray sums by maintaining a running total and adjusting the window size as needed. This method ensured that we could find the maximum average in linear time.
+  - In "Longest Substring Without Repeating Characters," the combination of the sliding window technique with a HashMap provided an effective way to track character indices and manage the window boundaries. This approach allowed us to dynamically adjust the window size based on character repetitions.
+  - "Minimum Size Subarray Sum" further reinforced the sliding window concept by demonstrating how to expand and contract the window based on the current sum. This problem highlighted the importance of maintaining a balance between window size and the target sum.
+  - Overall, these problems solidified my understanding of the sliding window technique and its versatility in solving a variety of problems efficiently.
+--- 
 
 **🔥 Keep the momentum going! 🔥**
 
