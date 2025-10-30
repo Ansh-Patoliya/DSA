@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-13%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-26-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-4_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-14%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-27-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-5_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -429,6 +429,26 @@ Mastering the sliding window technique for efficient subarray and substring prob
   - Overall, these problems solidified my understanding of the sliding window technique and its versatility in solving a variety of problems efficiently.
 --- 
 
+## 📅 **Day 14 ** – Fruit Into Baskets *(29 Oct 2025)*
+### 🎯 **Focus of the Day**
+Applying the sliding window technique to solve problems involving contiguous subarrays with constraints.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 904 - `Fruit Into Baskets`
+- **`Problem`**: Given an array representing types of fruits, find the length of the longest subarray containing at most two different types of fruits.
+- **`Approach`**: Used the sliding window technique with a HashMap to track the count of each fruit type within the window.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each element is processed once.
+  - **`Space`**: O(1) — The HashMap stores at most two fruit types.
+- **`Edge Cases Handled`**: All fruits are the same type, only one type of fruit present.
+---
+### 💭 **Reflection**
+- Today's problem, "Fruit Into Baskets," was an excellent exercise in applying the sliding window technique to solve problems involving contiguous subarrays with constraints.
+- The sliding window approach, combined with a HashMap to track fruit counts, allowed for efficient management of the window size while ensuring that we adhered to the constraint of having at most two different fruit types. This method enabled us to dynamically adjust the window boundaries based on the current fruit counts.
+- A key insight was recognizing that when the number of fruit types exceeded two, we needed to shrink the window from the left until we were back within the constraint. This required careful tracking of the counts and ensuring that we updated the maximum length of valid subarrays accordingly.
+- Overall, this problem reinforced the versatility of the sliding window technique and highlighted its effectiveness in solving a variety of problems efficiently.
+---
 **🔥 Keep the momentum going! 🔥**
 
 
