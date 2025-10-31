@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-14%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-27-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-5_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-15%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-28-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-1_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -449,6 +449,29 @@ Applying the sliding window technique to solve problems involving contiguous sub
 - A key insight was recognizing that when the number of fruit types exceeded two, we needed to shrink the window from the left until we were back within the constraint. This required careful tracking of the counts and ensuring that we updated the maximum length of valid subarrays accordingly.
 - Overall, this problem reinforced the versatility of the sliding window technique and highlighted its effectiveness in solving a variety of problems efficiently.
 ---
+
+## 📅 **Day 14 ** – Reverse Linked List *(31 Oct 2025)*
+### 🎯 **Focus of the Day**
+Mastering linked list manipulation through iterative and recursive approaches.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 206 - `Reverse Linked List`
+- **`Problem`**: Given the head of a singly linked list, reverse the list.
+- **`Approach`**: Implemented both iterative and recursive methods to reverse the linked list.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each node is processed once.
+  - **`Space`**: O(1) for iterative, O(n) for recursive due to call stack.
+- **`Edge Cases Handled`**: Empty list, single node list.
+--- 
+### 💭 **Reflection**
+- Today's problem, "Reverse Linked List," was a great exercise in mastering linked list manipulation through both iterative and recursive approaches.
+- The iterative method provided a straightforward way to reverse the linked list by maintaining three pointers: previous, current, and next. This approach allowed for in-place reversal of the list with constant space complexity.
+- The recursive method offered a more elegant solution, leveraging the call stack to reverse the list. However, it came with the trade-off of increased space complexity due to the call stack.
+- A key insight was understanding the importance of updating pointers correctly to avoid losing access to nodes during the reversal process. Careful management of the pointers ensured that we could successfully reverse the list without any data loss.
+- Overall, this problem reinforced my understanding of linked list operations and highlighted the different approaches that can be taken to solve the same problem. 
+---
+
 **🔥 Keep the momentum going! 🔥**
 
 
