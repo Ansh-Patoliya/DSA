@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-15%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-28-success?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-16%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-30-success?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Current_Streak-1_Days-orange?style=for-the-badge)
 
 </div>
@@ -472,6 +472,35 @@ Mastering linked list manipulation through iterative and recursive approaches.
 - Overall, this problem reinforced my understanding of linked list operations and highlighted the different approaches that can be taken to solve the same problem. 
 ---
 
+## 📅 **Day 15 ** – Middle of the Linked List , Delete Node in a Linked List *(1 Nov 2025)*
+### 🎯 **Focus of the Day**
+Enhancing linked list manipulation skills by solving common problems.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 876 - `Middle of the Linked List`
+- **`Problem`**: Given the head of a singly linked list, return the middle node.
+- **`Approach`**: Used the slow and fast pointer technique to find the middle node.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each node is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+  - **`Edge Cases Handled`**: Empty list, single node list.
+---
+#### 🔹 **Problem**: LeetCode 237 - `Delete Node in a Linked List`
+- **`Problem`**: Given a node in a singly linked list, delete that node.
+- **`Approach`**: Copied the value of the next node to the current node and adjusted pointers to bypass the next node.
+- **Complexity Analysis**:
+  - **`Time`**: O(1) — The operation is done in constant time.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Node to be deleted is the last node (though not applicable as per problem constraints).
+---
+### 💭 **Reflection**
+- Today's problems, "Middle of the Linked List" and "Delete Node in a Linked List," were excellent exercises in enhancing linked list manipulation skills by solving common problems.
+- The slow and fast pointer technique used in "Middle of the Linked List" provided an efficient way to find the middle node in a single pass through the list. This approach effectively balances the traversal speed of two pointers to pinpoint the middle node without needing to know the length of the list beforehand.
+- In "Delete Node in a Linked List," the strategy of copying the value from the next node and adjusting pointers allowed for a quick deletion of the specified node. This method is particularly clever as it avoids the need to traverse the list to find the previous node, which is not possible given the problem constraints.
+- A key insight from both problems was the importance of pointer manipulation in linked lists. Properly managing pointers is crucial to ensure the integrity of the list during operations such as finding nodes and deleting nodes.
+- Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
+---
 **🔥 Keep the momentum going! 🔥**
 
 
