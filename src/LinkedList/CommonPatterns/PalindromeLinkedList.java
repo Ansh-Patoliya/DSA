@@ -92,4 +92,61 @@ public class PalindromeLinkedList {
         }
         System.out.println("null");
     }
+    public void display(ListNode head) {
+        ListNode current = head;
+        while (current != null) {
+            System.out.print(current.val + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
+    }
+    public boolean isPalindrome(ListNode head) {
+        // find middle
+        ListNode slow=head;
+        ListNode fast=head;
+        while(fast.next!=null && fast.next.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        ListNode mid=slow;
+        ListNode revHead=slow.next;
+        slow.next=null;
+        // reverse second half
+        ListNode prev=null;
+        ListNode nextTemp=null;
+        ListNode current=revHead;
+        while(current!=null){
+            nextTemp=current.next;
+            current.next=prev;
+            prev=current;
+            current=nextTemp;
+        }
+        revHead=prev;
+
+        // compare both halves
+        ListNode right=revHead;
+        ListNode left=head;
+        while(right!=null ){
+            if(right.val!= left.val)
+                return false;
+            right=right.next;
+            left=left.next;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        PalindromeLinkedList solution = new PalindromeLinkedList();
+
+        // Creating a palindrome linked list: 1 -> 2 -> 2 -> 1
+        solution.addLast(1);
+        solution.addLast(2);
+
+        // Displaying the linked list
+        solution.display();
+
+        // Checking if the linked list is a palindrome
+        boolean result = solution.isPalindrome(solution.head);
+        System.out.println("Is Palindrome: " + result);
+    }
 }
