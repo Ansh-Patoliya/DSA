@@ -75,6 +75,48 @@ public class MergeTwoSortedLists {
         current.next = newNode;
     }
 
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2){
+        ListNode dummy=new ListNode(0);
+        ListNode current=dummy;
+        while(list1!=null && list2!=null){
+            if(list1.val< list2.val){
+                current.next=list1;
+                list1=list1.next;
+            }
+            else{
+                current.next=list2;
+                list2=list2.next;
+            }
+            current=current.next;
+        }
+        if(list1!=null)
+            current.next=list1;
+        if(list2!=null)
+            current.next=list2;
+        return dummy.next;
+    }
+
+    public static void main(String[] args) {
+
+        MergeTwoSortedLists solution = new MergeTwoSortedLists();
+
+        // Creating first sorted linked list: 1 -> 2 -> 4
+        ListNode list1 = solution.new ListNode(1);
+        list1.next = solution.new ListNode(2);
+        list1.next.next = solution.new ListNode(4);
+
+        // Creating second sorted linked list: 1 -> 3 -> 4
+        ListNode list2 = solution.new ListNode(1);
+        list2.next = solution.new ListNode(3);
+        list2.next.next = solution.new ListNode(4);
+
+        // Merging the two lists
+        ListNode mergedList = solution.mergeTwoLists(list1, list2);
+
+        // Displaying the merged linked list
+        solution.display(mergedList);
+    }
+
     public void display(ListNode head) {
         ListNode current = head;
         while (current != null) {
