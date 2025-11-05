@@ -450,7 +450,7 @@ Applying the sliding window technique to solve problems involving contiguous sub
 - Overall, this problem reinforced the versatility of the sliding window technique and highlighted its effectiveness in solving a variety of problems efficiently.
 ---
 
-## 📅 **Day 14 ** – Reverse Linked List *(31 Oct 2025)*
+## 📅 **Day 15 ** – Reverse Linked List *(31 Oct 2025)*
 ### 🎯 **Focus of the Day**
 Mastering linked list manipulation through iterative and recursive approaches.
 
@@ -472,7 +472,7 @@ Mastering linked list manipulation through iterative and recursive approaches.
 - Overall, this problem reinforced my understanding of linked list operations and highlighted the different approaches that can be taken to solve the same problem. 
 ---
 
-## 📅 **Day 15 ** – Middle of the Linked List , Delete Node in a Linked List *(1 Nov 2025)*
+## 📅 **Day 16 ** – Middle of the Linked List , Delete Node in a Linked List *(1 Nov 2025)*
 ### 🎯 **Focus of the Day**
 Enhancing linked list manipulation skills by solving common problems.
 
@@ -499,6 +499,36 @@ Enhancing linked list manipulation skills by solving common problems.
 - The slow and fast pointer technique used in "Middle of the Linked List" provided an efficient way to find the middle node in a single pass through the list. This approach effectively balances the traversal speed of two pointers to pinpoint the middle node without needing to know the length of the list beforehand.
 - In "Delete Node in a Linked List," the strategy of copying the value from the next node and adjusting pointers allowed for a quick deletion of the specified node. This method is particularly clever as it avoids the need to traverse the list to find the previous node, which is not possible given the problem constraints.
 - A key insight from both problems was the importance of pointer manipulation in linked lists. Properly managing pointers is crucial to ensure the integrity of the list during operations such as finding nodes and deleting nodes.
+- Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
+---
+
+## 📅 **Day 17 ** – Merge Two Sorted Lists , Palindrome Linked List *(2 Nov 2025)*
+### 🎯 **Focus of the Day**
+Strengthening linked list manipulation skills through merging and palindrome checking.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 21 - `Merge Two Sorted Lists`
+- **`Problem`**: Given two sorted linked lists, merge them into a single sorted linked list.
+- **`Approach`**: Used a dummy node to simplify the merging process and iteratively compared nodes from both lists.
+- **Complexity Analysis**:
+  - **`Time`**: O(n + m) — Each node from both lists is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: One or both lists are empty.
+---
+#### 🔹 **Problem**: LeetCode 234 - `Palindrome Linked List`
+- **`Problem`**: Given the head of a singly linked list, determine if it is a palindrome.
+- **`Approach`**: Used the fast and slow pointer technique to find the middle of the list, reversed the second half, and compared both halves.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each node is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Empty list, single node list.
+---
+### 💭 **Reflection**
+- Today's problems, "Merge Two Sorted Lists" and "Palindrome Linked List," were excellent exercises in strengthening linked list manipulation skills through merging and palindrome checking.
+- The use of a dummy node in "Merge Two Sorted Lists" simplified the merging process significantly. By maintaining a pointer to the current position in the merged list, we could easily append nodes from either list based on their values. This approach ensured that the merged list remained sorted without the need for additional data structures.
+- In "Palindrome Linked List," the combination of the fast and slow pointer technique with list reversal provided an efficient way to check for palindromicity. By reversing the second half of the list, we could directly compare the two halves without needing extra space for storage.
+- A key insight from both problems was the importance of careful pointer manipulation in linked lists. Properly managing pointers is crucial to ensure the integrity of the list during operations such as merging and checking for palindromes.
 - Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
 ---
 **🔥 Keep the momentum going! 🔥**
