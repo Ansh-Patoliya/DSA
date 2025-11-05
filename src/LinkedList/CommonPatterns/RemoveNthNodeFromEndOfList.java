@@ -106,4 +106,46 @@ public class RemoveNthNodeFromEndOfList {
             this.next = next;
         }
     }
+
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode temp=head;
+        int size=0;
+        while (temp!=null){
+            temp=temp.next;
+            size++;
+        }
+
+        int delete=size-n+1;
+
+        int count=1;
+        temp=head;
+        if(delete==1) {
+            head = head.next;
+            return head;
+        }
+        while(count+1!=delete) {
+
+            count++;
+            temp = temp.next;
+        }
+        temp.next=temp.next.next;
+        return head;
+    }
+
+    public static void main(String[] args) {
+        RemoveNthNodeFromEndOfList list = new RemoveNthNodeFromEndOfList();
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(4);
+        list.addLast(5);
+        System.out.println("Original List:");
+        list.display();
+
+        int n = 2;
+        list.head = list.removeNthFromEnd(list.head, n);
+        System.out.println("List after removing " + n + "th node from end:");
+        list.display();
+    }
+
 }
