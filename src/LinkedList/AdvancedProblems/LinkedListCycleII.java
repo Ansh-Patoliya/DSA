@@ -93,4 +93,27 @@ public class LinkedListCycleII {
         }
         System.out.println("null");
     }
+
+    public ListNode detectCycle(ListNode head) {
+        ListNode fast=head;
+        ListNode slow=head;
+        while(fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+            if (fast==slow) {
+                break;
+            }
+        }
+        if (fast == null || fast.next == null) {
+            return null;
+        }
+        ListNode p1=head;
+        ListNode p2=fast;
+        while (p1!=p2){
+
+            p1=p1.next;
+            p2=p2.next;
+        }
+        return p1;
+    }
 }
