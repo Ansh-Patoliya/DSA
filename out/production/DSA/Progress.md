@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-16%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-30-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-1_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-18%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-34-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-3_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -472,7 +472,7 @@ Mastering linked list manipulation through iterative and recursive approaches.
 - Overall, this problem reinforced my understanding of linked list operations and highlighted the different approaches that can be taken to solve the same problem. 
 ---
 
-## 📅 **Day 16 ** – Middle of the Linked List , Delete Node in a Linked List *(1 Nov 2025)*
+## 📅 **Day 16 ** – Middle of the Linked List , Delete Node in a Linked List *(3 Nov 2025)*
 ### 🎯 **Focus of the Day**
 Enhancing linked list manipulation skills by solving common problems.
 
@@ -502,7 +502,7 @@ Enhancing linked list manipulation skills by solving common problems.
 - Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
 ---
 
-## 📅 **Day 17 ** – Merge Two Sorted Lists , Palindrome Linked List *(2 Nov 2025)*
+## 📅 **Day 17 ** – Merge Two Sorted Lists , Palindrome Linked List *(4 Nov 2025)*
 ### 🎯 **Focus of the Day**
 Strengthening linked list manipulation skills through merging and palindrome checking.
 
@@ -529,6 +529,36 @@ Strengthening linked list manipulation skills through merging and palindrome che
 - The use of a dummy node in "Merge Two Sorted Lists" simplified the merging process significantly. By maintaining a pointer to the current position in the merged list, we could easily append nodes from either list based on their values. This approach ensured that the merged list remained sorted without the need for additional data structures.
 - In "Palindrome Linked List," the combination of the fast and slow pointer technique with list reversal provided an efficient way to check for palindromicity. By reversing the second half of the list, we could directly compare the two halves without needing extra space for storage.
 - A key insight from both problems was the importance of careful pointer manipulation in linked lists. Properly managing pointers is crucial to ensure the integrity of the list during operations such as merging and checking for palindromes.
+- Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
+---
+
+## 📅 **Day 18 ** – Linked List Cycle , Remove Nth Node From End of List *(5 Nov 2025)*
+### 🎯 **Focus of the Day**
+Mastering linked list cycle detection and node removal techniques.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 141 - `Linked List Cycle`
+- **`Problem`**: Given the head of a linked list, determine if it has a cycle in it.
+- **`Approach`**: Used the Floyd's Tortoise and Hare algorithm with slow and fast pointers.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each node is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Empty list, single node list.
+---
+#### 🔹 **Problem**: LeetCode 19 - `Remove Nth Node From End of List`
+- **`Problem`**: Given the head of a linked list, remove the nth node from the end of the list and return its head.
+- **`Approach`**: Used two pointers to find the nth node from the end in a single pass.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each node is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Removing the head node, single node list.
+---
+### 💭 **Reflection**
+- Today's problems, "Linked List Cycle" and "Remove Nth Node From End of List," were excellent exercises in mastering linked list cycle detection and node removal techniques.
+- The Floyd's Tortoise and Hare algorithm used in "Linked List Cycle" provided an efficient way to detect cycles in a linked list. By using two pointers moving at different speeds, we could determine the presence of a cycle without needing extra space for tracking visited nodes.
+- In "Remove Nth Node From End of List," the two-pointer technique allowed us to find and remove the nth node from the end in a single pass. By maintaining a gap between the two pointers, we could easily identify the target node for removal without needing to calculate the length of the list beforehand.
+- A key insight from both problems was the importance of pointer manipulation in linked lists. Properly managing pointers is crucial to ensure the integrity of the list during operations such as cycle detection and node removal.
 - Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
 ---
 **🔥 Keep the momentum going! 🔥**

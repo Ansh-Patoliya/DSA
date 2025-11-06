@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-18%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-34-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-3_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-19%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-37-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-4_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -559,6 +559,45 @@ Mastering linked list cycle detection and node removal techniques.
 - The Floyd's Tortoise and Hare algorithm used in "Linked List Cycle" provided an efficient way to detect cycles in a linked list. By using two pointers moving at different speeds, we could determine the presence of a cycle without needing extra space for tracking visited nodes.
 - In "Remove Nth Node From End of List," the two-pointer technique allowed us to find and remove the nth node from the end in a single pass. By maintaining a gap between the two pointers, we could easily identify the target node for removal without needing to calculate the length of the list beforehand.
 - A key insight from both problems was the importance of pointer manipulation in linked lists. Properly managing pointers is crucial to ensure the integrity of the list during operations such as cycle detection and node removal.
+- Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
+---
+
+## 📅 **Day 19 ** – Linked List Cycle II , Add Two Numbers , Intersection of Two Linked Lists *(6 Nov 2025)*
+### 🎯 **Focus of the Day**
+Enhancing linked list manipulation skills through cycle detection, addition, and intersection problems.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 142 - `Linked List Cycle II`
+- **`Problem`**: Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null.
+- **`Approach`**: Used Floyd's Tortoise and Hare algorithm to detect the cycle and find the starting node.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each node is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: Empty list, single node list.
+---
+#### 🔹 **Problem**: LeetCode 2 - `Add Two Numbers`
+- **`Problem`**: Given two non-empty linked lists representing two non-negative integers, add the two numbers and return the sum as a linked list.
+- **`Approach`**: Iterated through both lists, adding corresponding digits and managing carry-over.
+- **Complexity Analysis:
+  - **`Time`**: O(max(m, n)) — Each node from both lists is processed once.
+  - **`Space`**: O(max(m, n)) — The output list requires space proportional to the larger input list.
+- **`Edge Cases Handled`: Different lengths of lists, carry-over at the end.
+---
+#### 🔹 **Problem**: LeetCode 160 - `Intersection of Two Linked Lists`
+- **`Problem`**: Given the heads of two singly linked lists, return the node at which the two lists intersect. If the two linked lists have no intersection, return null.
+- **`Approach`**: Used two pointers to traverse both lists, switching heads when reaching the end.
+- **Complexity Analysis**:
+  - **`Time`**: O(m + n) — Each node from both lists is processed once.
+  - **`Space`**: O(1) — No extra space is used.
+- **`Edge Cases Handled`**: No intersection, one or both lists are empty.
+---
+### 💭 **Reflection**
+- Today's problems, "Linked List Cycle II," "Add Two Numbers," and "Intersection of Two Linked Lists," were excellent exercises in enhancing linked list manipulation skills through cycle detection, addition, and intersection problems.
+- The Floyd's Tortoise and Hare algorithm used in "Linked List Cycle II" provided an efficient way to detect cycles and find the starting node of the cycle. By using two pointers moving at different speeds, we could determine the presence of a cycle and locate its entry point without needing extra space for tracking visited nodes.
+- In "Add Two Numbers," the iterative approach allowed us to add corresponding digits from both linked lists while managing carry-over effectively. This method ensured that we could handle lists of different lengths and produce the correct sum as a new linked list.
+- "Intersection of Two Linked Lists" showcased a clever technique of using two pointers to traverse both lists. By switching heads when reaching the end, we could align the pointers to find the intersection point without needing extra space.
+- A key insight from all three problems was the importance of pointer manipulation in linked lists. Properly managing pointers is crucial to ensure the integrity of the list during operations such as cycle detection, addition, and intersection finding.
 - Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
 ---
 **🔥 Keep the momentum going! 🔥**
