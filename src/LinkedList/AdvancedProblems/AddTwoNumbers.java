@@ -75,4 +75,80 @@ public class AddTwoNumbers {
         }
         System.out.println("null");
     }
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummy=new ListNode(0);
+        ListNode current=dummy;
+        int carry=0,newVal=0;
+        while(l1!=null && l2!=null){
+            newVal=l1.val+l2.val;
+            if(carry>0){
+                newVal+=1;
+                carry-=1;
+            }
+            if(newVal>=10){
+                carry+=1;
+                newVal-=10;
+            }
+            current.next=new ListNode(newVal);
+            current=current.next;
+            l1=l1.next;
+            l2=l2.next;
+        }
+        while (l1 != null) {
+            newVal=l1.val;
+            if(carry>0){
+                newVal+=1;
+                carry-=1;
+            }
+            if(newVal>=10){
+                carry+=1;
+                newVal-=10;
+            }
+            current.next=new ListNode(newVal);
+            current=current.next;
+            l1=l1.next;
+        }while (l2 != null) {
+            newVal=l2.val;
+            if(carry>0){
+                newVal+=1;
+                carry-=1;
+            }
+            if(newVal>=10){
+                carry+=1;
+                newVal-=10;
+            }
+            current.next=new ListNode(newVal);
+            current=current.next;
+            l2=l2.next;
+        }
+        if(carry>0){
+            current.next=new ListNode(carry);
+        }
+
+        return dummy.next;
+    }
+
+    public static void main(String[] args) {
+        AddTwoNumbers list1 = new AddTwoNumbers();
+        list1.addLast(9);
+        list1.addLast(9);
+        list1.addLast(9);
+        list1.addLast(9);
+        list1.addLast(9);
+        list1.addLast(9);
+
+        AddTwoNumbers list2 = new AddTwoNumbers();
+        list2.addLast(9);
+        list2.addLast(9);
+        list2.addLast(9);
+        list2.addLast(9);
+
+
+        AddTwoNumbers solution = new AddTwoNumbers();
+        ListNode result = solution.addTwoNumbers(list1.head, list2.head);
+
+        AddTwoNumbers resultList = new AddTwoNumbers();
+        resultList.head = result;
+        resultList.display(); // Expected Output: 7 -> 0 -> 8 -> null
+    }
 }
