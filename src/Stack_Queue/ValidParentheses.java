@@ -3,6 +3,8 @@ package Stack_Queue;
 // LeetCode Problem 20: Valid Parentheses
 // Link: https://leetcode.com/problems/valid-parentheses/
 
+import java.util.Stack;
+
 /**
  * PROBLEM DESCRIPTION:
  * ====================
@@ -266,4 +268,38 @@ package Stack_Queue;
  * TOPICS: String, Stack
  */
 public class ValidParentheses {
+    public boolean isValid(String s) {
+        Stack<Character> st=new Stack<>();
+        for (int i = 0; i < s.length(); i++) {
+            char ch=s.charAt(i);
+            if(ch=='(' || ch=='{' || ch=='['){
+                st.push(ch);
+            }
+            else{
+                if(!st.isEmpty()) {
+                    char poped = st.pop();
+                    if (ch == ')' && poped == '(')
+                        continue;
+                    if (ch == '}' && poped == '{')
+                        continue;
+                    if (ch == ']' && poped == '[')
+                        continue;
+                    return false;
+                }
+                else
+                    return false;
+
+            }
+        }
+        if(!st.isEmpty())
+            return false;
+        return true;
+
+    }
+
+    public static void main(String[] args) {
+        ValidParentheses vp=new ValidParentheses();
+        String s="([{}])";
+        System.out.println(vp.isValid(s)); // true
+    }
 }
