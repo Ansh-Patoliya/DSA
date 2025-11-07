@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-19%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-37-success?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-20%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-38-success?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Current_Streak-4_Days-orange?style=for-the-badge)
 
 </div>
@@ -599,6 +599,28 @@ Enhancing linked list manipulation skills through cycle detection, addition, and
 - "Intersection of Two Linked Lists" showcased a clever technique of using two pointers to traverse both lists. By switching heads when reaching the end, we could align the pointers to find the intersection point without needing extra space.
 - A key insight from all three problems was the importance of pointer manipulation in linked lists. Properly managing pointers is crucial to ensure the integrity of the list during operations such as cycle detection, addition, and intersection finding.
 - Overall, these problems reinforced my understanding of linked list operations and highlighted efficient techniques for common tasks.
+---
+
+## 📅 **Day 20 ** – Valid Parentheses *(7 Nov 2025)*
+### 🎯 **Focus of the Day**
+Strengthening stack operations through parentheses validation.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 20 - `Valid Parentheses`
+- **`Problem`**: Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+- **`Approach`**: Used a stack to track opening parentheses and matched them with closing ones.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each character is processed once.
+  - **`Space`**: O(n) — The stack may store all opening parentheses in the worst case.
+- **`Edge Cases Handled`**: Empty string, unmatched parentheses.
+---
+### 💭 **Reflection**
+- Today's problem, "Valid Parentheses," was an excellent exercise in strengthening stack operations through parentheses validation.
+- The stack data structure proved to be an ideal choice for this problem, as it allowed us to efficiently track opening parentheses and match them with their corresponding closing ones. By pushing opening parentheses onto the stack and popping them when a matching closing parenthesis is encountered, we could easily determine the validity of the input string.
+- A key insight was recognizing that the order of parentheses matters, and using a stack naturally enforces this order. If at any point a closing parenthesis does not match the top of the stack, we can immediately conclude that the string is invalid.
+- Handling edge cases, such as an empty string or unmatched parentheses, reinforced the importance of thorough testing and validation in algorithm design.
+- Overall, this problem reinforced my understanding of stack operations and highlighted their effectiveness in solving problems involving matching and validation.
 ---
 **🔥 Keep the momentum going! 🔥**
 
