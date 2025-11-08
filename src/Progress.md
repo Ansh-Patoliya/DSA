@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-20%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-38-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-4_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-21%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-39-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-5_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -621,6 +621,27 @@ Strengthening stack operations through parentheses validation.
 - A key insight was recognizing that the order of parentheses matters, and using a stack naturally enforces this order. If at any point a closing parenthesis does not match the top of the stack, we can immediately conclude that the string is invalid.
 - Handling edge cases, such as an empty string or unmatched parentheses, reinforced the importance of thorough testing and validation in algorithm design.
 - Overall, this problem reinforced my understanding of stack operations and highlighted their effectiveness in solving problems involving matching and validation.
+---
+## 📅 **Day 21 ** – Evaluate Reverse Polish Notation *(8 Nov 2025)*
+### 🎯 **Focus of the Day**
+Mastering stack operations through expression evaluation.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 150 - `Evaluate Reverse Polish Notation`
+- **`Problem`**: Given an array of strings representing an expression in Reverse Polish Notation, evaluate the expression.
+- **`Approach`**: Used a stack to evaluate the expression by pushing operands and applying operators.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each token is processed once.
+  - **`Space`**: O(n) — The stack may store all operands in the worst case.
+- **`Edge Cases Handled`**: Single operand, division by zero.
+---
+### 💭 **Reflection**
+- Today's problem, "Evaluate Reverse Polish Notation," was an excellent exercise in mastering stack operations through expression evaluation.
+- The stack data structure proved to be an ideal choice for this problem, as it allowed us to efficiently manage operands and apply operators in the correct order. By pushing operands onto the stack and popping them when an operator is encountered, we could easily evaluate the expression step by step.
+- A key insight was recognizing that Reverse Polish Notation eliminates the need for parentheses and operator precedence, simplifying the evaluation process. The stack naturally handles the order of operations, ensuring that operands are combined correctly. 
+- Handling edge cases, such as a single operand or division by zero, reinforced the importance of thorough testing and validation in algorithm design.
+- Overall, this problem reinforced my understanding of stack operations and highlighted their effectiveness in solving problems involving expression evaluation.
 ---
 **🔥 Keep the momentum going! 🔥**
 
