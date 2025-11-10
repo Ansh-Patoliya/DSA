@@ -664,6 +664,50 @@ Implementing a stack with constant time minimum retrieval.
 - Handling edge cases, such as popping from an empty stack or retrieving the minimum from an empty stack, reinforced the importance of robust error handling in data structure design.
 - Overall, this problem reinforced my understanding of stack operations and highlighted effective techniques for enhancing stack functionality.
 ---
+
+## 📅 **Day 21 ** – Evaluate Reverse Polish Notation *(8 Nov 2025)*
+### 🎯 **Focus of the Day**
+Mastering stack operations through expression evaluation.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 150 - `Evaluate Reverse Polish Notation`
+- **`Problem`**: Given an array of strings representing an expression in Reverse Polish Notation, evaluate the expression.
+- **`Approach`**: Used a stack to evaluate the expression by pushing operands and applying operators.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each token is processed once.
+  - **`Space`**: O(n) — The stack may store all operands in the worst case.
+- **`Edge Cases Handled`**: Single operand, division by zero.
+---
+### 💭 **Reflection**
+- Today's problem, "Evaluate Reverse Polish Notation," was an excellent exercise in mastering stack operations through expression evaluation.
+- The stack data structure proved to be an ideal choice for this problem, as it allowed us to efficiently manage operands and apply operators in the correct order. By pushing operands onto the stack and popping them when an operator is encountered, we could easily evaluate the expression step by step.
+- A key insight was recognizing that Reverse Polish Notation eliminates the need for parentheses and operator precedence, simplifying the evaluation process. The stack naturally handles the order of operations, ensuring that operands are combined correctly. 
+- Handling edge cases, such as a single operand or division by zero, reinforced the importance of thorough testing and validation in algorithm design.
+- Overall, this problem reinforced my understanding of stack operations and highlighted their effectiveness in solving problems involving expression evaluation.
+---
+
+## 📅 **Day 22 ** – Min Stack *(10 Nov 2025)*
+### 🎯 **Focus of the Day**
+Implementing a stack with constant time minimum retrieval.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 155 - `Min Stack`
+- **`Problem`**: Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+- **`Approach`**: Used two stacks: one for the main stack and another for tracking minimums.
+- **Complexity Analysis**:
+  - **`Time`**: O(1) for all operations — Each operation is performed in constant time.
+  - **`Space`**: O(n) — The auxiliary stack may store all elements in the worst case.
+- **`Edge Cases Handled`**: Popping from an empty stack, retrieving minimum from an empty stack.
+---
+### 💭 **Reflection**
+- Today's problem, "Min Stack," was an excellent exercise in implementing a stack with constant time minimum retrieval.
+- The use of two stacks allowed us to efficiently manage both the main stack and the minimum values. By pushing elements onto the main stack and updating the auxiliary stack with the current minimum, we could ensure that all operations, including retrieving the minimum element, were performed in constant time.
+- A key insight was recognizing that maintaining a separate stack for minimum values simplifies the retrieval process. Whenever an element is pushed onto the main stack, we compare it with the current minimum and update the auxiliary stack accordingly. This approach ensures that we always have access to the minimum element without needing to traverse the main stack.
+- Handling edge cases, such as popping from an empty stack or retrieving the minimum from an empty stack, reinforced the importance of robust error handling in data structure design.
+- Overall, this problem reinforced my understanding of stack operations and highlighted effective techniques for enhancing stack functionality.
+---
 **🔥 Keep the momentum going! 🔥**
 **🔥 Keep the momentum going! 🔥**
 
