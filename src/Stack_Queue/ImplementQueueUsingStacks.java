@@ -3,6 +3,8 @@ package Stack_Queue;
 // LeetCode Problem 232: Implement Queue using Stacks
 // Link: https://leetcode.com/problems/implement-queue-using-stacks/
 
+import java.util.Stack;
+
 /**
  * PROBLEM DESCRIPTION:
  * ====================
@@ -200,4 +202,34 @@ package Stack_Queue;
  * TOPICS: Stack, Queue, Design
  */
 public class ImplementQueueUsingStacks {
+    Stack<Integer> input;
+    Stack<Integer> output;
+    public ImplementQueueUsingStacks() {
+        input=new Stack<>();
+        output=new Stack<>();
+    }
+
+    public void push(int x) {
+        input.push(x);
+    }
+
+    private void transfer(){
+        if(output.empty()) {
+            while (!input.empty())
+                output.push(input.pop());
+        }
+    }
+    public int pop() {
+        transfer();
+        return output.pop();
+    }
+
+    public int peek() {
+        transfer();
+        return output.peek();
+    }
+
+    public boolean empty() {
+        return input.isEmpty() && output.isEmpty();
+    }
 }
