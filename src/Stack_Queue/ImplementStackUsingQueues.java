@@ -3,6 +3,10 @@ package Stack_Queue;
 // LeetCode Problem 225: Implement Stack using Queues
 // Link: https://leetcode.com/problems/implement-stack-using-queues/
 
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * PROBLEM DESCRIPTION:
  * ====================
@@ -244,4 +248,27 @@ package Stack_Queue;
  * TOPICS: Stack, Queue, Design
  */
 public class ImplementStackUsingQueues {
+    Queue<Integer> q;
+    public ImplementStackUsingQueues() {
+        q = new LinkedList<>();
+    }
+
+    public void push(int x) {
+        q.add(x);
+        for (int i = 0; i < q.size()-1; i++) {
+            q.add(q.remove());
+        }
+    }
+
+    public int pop() {
+        return q.remove();
+    }
+
+    public int top() {
+        return q.peek();
+    }
+
+    public boolean empty() {
+        return q.isEmpty();
+    }
 }
