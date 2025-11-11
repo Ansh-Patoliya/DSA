@@ -3,6 +3,9 @@ package Stack_Queue;
 // LeetCode Problem 933: Number of Recent Calls
 // Link: https://leetcode.com/problems/number-of-recent-calls/
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * PROBLEM DESCRIPTION:
  * ====================
@@ -268,4 +271,16 @@ package Stack_Queue;
  * TOPICS: Queue, Design, Data Stream
  */
 public class NumberOfRecentCalls {
+    Queue<Integer> requestQueue ;
+    public NumberOfRecentCalls() {
+        requestQueue=new LinkedList<>();
+    }
+
+    public int ping(int t) {
+        requestQueue.offer(t);
+        while(requestQueue.peek()<t-3000){
+            requestQueue.poll();
+        }
+        return requestQueue.size();
+    }
 }
