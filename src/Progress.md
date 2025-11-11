@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-22%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-40-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-6_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-24%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-44-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-8_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -665,7 +665,7 @@ Implementing a stack with constant time minimum retrieval.
 - Overall, this problem reinforced my understanding of stack operations and highlighted effective techniques for enhancing stack functionality.
 ---
 
-## 📅 **Day 21 ** – Evaluate Reverse Polish Notation *(8 Nov 2025)*
+## 📅 **Day 23 ** – Evaluate Reverse Polish Notation *(8 Nov 2025)*
 ### 🎯 **Focus of the Day**
 Mastering stack operations through expression evaluation.
 
@@ -687,7 +687,7 @@ Mastering stack operations through expression evaluation.
 - Overall, this problem reinforced my understanding of stack operations and highlighted their effectiveness in solving problems involving expression evaluation.
 ---
 
-## 📅 **Day 22 ** – Min Stack *(10 Nov 2025)*
+## 📅 **Day 24 ** – Min Stack *(9 Nov 2025)*
 ### 🎯 **Focus of the Day**
 Implementing a stack with constant time minimum retrieval.
 
@@ -708,7 +708,66 @@ Implementing a stack with constant time minimum retrieval.
 - Handling edge cases, such as popping from an empty stack or retrieving the minimum from an empty stack, reinforced the importance of robust error handling in data structure design.
 - Overall, this problem reinforced my understanding of stack operations and highlighted effective techniques for enhancing stack functionality.
 ---
-**🔥 Keep the momentum going! 🔥**
+
+## 📅 **Day 25 ** – Implement Queue using Stacks , Implement Stack using Queues *(10 Nov 2025)*
+### 🎯 **Focus of the Day**
+Implementing fundamental data structures using alternative structures.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 232 - `Implement Queue using Stacks`
+- **`Problem`**: Implement a queue using two stacks.
+- **`Approach`**: Used two stacks to simulate queue operations (enqueue and dequeue).
+- **Complexity Analysis**:
+  - **`Time`**: O(1) for enqueue, O(n) for dequeue in the worst case.
+  - **`Space`**: O(n) — The stacks may store all elements.
+- **`Edge Cases Handled`**: Dequeuing from an empty queue.
+---
+#### 🔹 **Problem**: LeetCode 225 - `Implement Stack using Queues`
+- **`Problem`**: Implement a stack using two queues.
+- **`Approach`**: Used two queues to simulate stack operations (push and pop).
+- **Complexity Analysis**:
+- **`Time`**: O(1) for push, O(n) for pop in the worst case.
+  - **`Space`**: O(n) — The queues may store all elements.
+- **`Edge Cases Handled`**: Popping from an empty stack.
+---
+### 💭 **Reflection**
+- Today's problems, "Implement Queue using Stacks" and "Implement Stack using Queues," were excellent exercises in implementing fundamental data structures using alternative structures.
+- In "Implement Queue using Stacks," the use of two stacks allowed us to simulate queue operations effectively. By pushing elements onto one stack and popping them from the other, we could maintain the FIFO order of a queue. This approach highlighted the versatility of stacks in implementing different data structures.
+- In "Implement Stack using Queues," the use of two queues enabled us to simulate stack operations. By enqueuing elements into one queue and dequeuing them from the other, we could maintain the LIFO order of a stack. This method demonstrated the adaptability of queues in implementing various data structures.
+- A key insight from both problems was the importance of understanding the fundamental properties of data structures and how they can be manipulated to achieve desired behaviors.
+- Overall, these problems reinforced my understanding of data structure operations and highlighted effective techniques for implementing one data structure using another.
+---
+
+## 📅 **Day 26 ** – Number of Recent Calls , Daily Temperatures *(11 Nov 2025)*
+### 🎯 **Focus of the Day**
+Applying stack techniques to solve real-world problems.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 933 - `Number of Recent Calls`
+- **`Problem`**: Implement a class that counts the number of recent calls within a 3000 milliseconds window.
+- **`Approach`**: Used a queue to store timestamps and remove outdated calls.
+- **Complexity Analysis**:
+  - **`Time`**: O(1) for each call — Each call is processed in constant time.
+  - **`Space`**: O(n) — The queue may store all recent calls.
+- **`Edge Cases Handled`**: No recent calls, multiple calls at the same timestamp.
+---
+#### 🔹 **Problem**: LeetCode 739 - `Daily Temperatures`
+- **`Problem`**: Given a list of daily temperatures, return a list where each element indicates how many days you would have to wait until a warmer temperature.
+- **`Approach`**: Used a stack to track indices of temperatures and calculate waiting days.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each temperature is processed once.
+  - **`Space`**: O(n) — The stack may store all temperature indices.
+- **`Edge Cases Handled`**: All temperatures are the same, decreasing temperature sequence.
+---
+### 💭 **Reflection**
+- Today's problems, "Number of Recent Calls" and "Daily Temperatures," were excellent exercises in applying stack techniques to solve real-world problems.
+- In "Number of Recent Calls," the use of a queue allowed us to efficiently manage timestamps and count recent calls within a specified time window. By removing outdated calls, we could maintain an accurate count of recent calls in constant time.
+- In "Daily Temperatures," the stack data structure enabled us to track indices of temperatures and calculate the number of days until a warmer temperature. By pushing indices onto the stack and popping them when a warmer temperature was encountered, we could efficiently determine the waiting days for each temperature.
+- A key insight from both problems was the importance of choosing the right data structure to manage dynamic data efficiently. Both the queue and stack proved to be effective in handling the specific requirements of each problem.
+- Overall, these problems reinforced my understanding of stack and queue operations and highlighted their effectiveness in solving real-world problems.
+---
 **🔥 Keep the momentum going! 🔥**
 
 
