@@ -3,6 +3,8 @@ package Stack_Queue;
 // LeetCode Problem 739: Daily Temperatures
 // Link: https://leetcode.com/problems/daily-temperatures/
 
+import java.util.Stack;
+
 /**
  * PROBLEM DESCRIPTION:
  * ====================
@@ -121,4 +123,21 @@ package Stack_Queue;
  * TOPICS: Array, Stack, Monotonic Stack
  */
 public class DailyTemperatures {
+    public int[] dailyTemperatures(int[] temperatures) {
+        int[] ans=new int[temperatures.length];
+        Stack<Integer> stack=new Stack<>();
+        for (int i = 0; i < temperatures.length; i++) {
+
+                int temp=temperatures[i];
+                while (!stack.isEmpty()){
+                    if(temp>temperatures[stack.peek()])
+                        ans[stack.peek()]=i-stack.pop();
+                    else
+                        break;
+                }
+                stack.push(i);
+
+        }
+        return ans;
+    }
 }
