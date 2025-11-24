@@ -16,4 +16,15 @@ package Tree;
  * - Skewed trees become skewed in the opposite direction; ensure recursion depth is safe for tall inputs.
  */
 public class InvertBinaryTree {
+    public TreeNode invertTree(TreeNode root) {
+
+        if(root==null)
+            return null;
+        TreeNode temp=root.left;
+        root.left=root.right;
+        root.right=temp;
+        invertTree(root.left);
+        invertTree(root.right);
+        return root;
+    }
 }
