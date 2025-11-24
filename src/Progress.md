@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Days](https://img.shields.io/badge/Days_Completed-24%2F90-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems_Solved-44-success?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Current_Streak-8_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-27%2F90-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems_Solved-47-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Current_Streak-1_Days-orange?style=for-the-badge)
 
 </div>
 
@@ -767,6 +767,36 @@ Applying stack techniques to solve real-world problems.
 - In "Daily Temperatures," the stack data structure enabled us to track indices of temperatures and calculate the number of days until a warmer temperature. By pushing indices onto the stack and popping them when a warmer temperature was encountered, we could efficiently determine the waiting days for each temperature.
 - A key insight from both problems was the importance of choosing the right data structure to manage dynamic data efficiently. Both the queue and stack proved to be effective in handling the specific requirements of each problem.
 - Overall, these problems reinforced my understanding of stack and queue operations and highlighted their effectiveness in solving real-world problems.
+---
+
+## 📅 **Day 27 ** – Maximum Depth of Binary Tree , invert Binary Tree *(24 Nov 2025)*
+### 🎯 **Focus of the Day**
+Mastering binary tree traversal and manipulation techniques.
+
+---
+### ✅ **Tasks Completed**
+#### 🔹 **Problem**: LeetCode 104 - `Maximum Depth of Binary Tree`
+- **`Problem`**: Given the root of a binary tree, return its maximum depth.
+- **`Approach`**: Used depth-first search (DFS) to traverse the tree and calculate the maximum depth.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each node is processed once.
+  - **`Space`**: O(h) — The recursion stack may store up to h nodes, where h is the height of the tree.
+- **`Edge Cases Handled`: Empty tree, single node tree.
+---
+#### 🔹 **Problem**: LeetCode 226 - `Invert Binary Tree`
+- **`Problem`**: Given the root of a binary tree, invert the tree and return its root.
+- **`Approach`**: Used depth-first search (DFS) to swap left and right children of each node.
+- **Complexity Analysis**:
+  - **`Time`**: O(n) — Each node is processed once.
+  - **`Space`**: O(h) — The recursion stack may store up to h nodes, where h is the height of the tree.
+- **`Edge Cases Handled`: Empty tree, single node tree.
+---
+### 💭 **Reflection**
+- Today's problems, "Maximum Depth of Binary Tree" and "Invert Binary Tree," were excellent exercises in mastering binary tree traversal and manipulation techniques.
+- The depth-first search (DFS) approach used in both problems provided an efficient way to traverse the binary tree and perform the required operations. In "Maximum Depth of Binary Tree," DFS allowed us to explore each path from the root to the leaves, calculating the depth along the way. This method ensured that we could determine the maximum depth in a single pass through the tree.
+- In "Invert Binary Tree," DFS enabled us to swap the left and right children of each node recursively. This approach allowed us to invert the tree structure effectively while maintaining the integrity of the tree.
+- A key insight from both problems was the versatility of DFS in handling various binary tree operations. Whether calculating depth or manipulating node relationships, DFS proved to be a powerful technique.
+- Overall, these problems reinforced my understanding of binary tree operations and highlighted efficient techniques for traversal and manipulation.
 ---
 **🔥 Keep the momentum going! 🔥**
 
